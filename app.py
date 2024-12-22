@@ -12,9 +12,9 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)  # 세션을 사용하기 위한 비밀 키 설정
 
 # CoolSMS API 정보
-API_KEY = 'NCSKHHXCB9BUCQO1'  # API Key
-API_SECRET = 'GK3NL3C3WC2B6IUVH8DSFXYKSQSEBMTM'  # API Secret
-SENDER_PHONE = '01075024213'  # 발신자 전화번호 (CoolSMS에서 발급받은 번호)
+API_KEY = ''  # API Key
+API_SECRET = ''  # API Secret
+SENDER_PHONE = ''  # 발신자 전화번호 (CoolSMS에서 발급받은 번호)
 
 # 인증번호 저장용 딕셔너리 (단기 저장)
 verification_codes = {}
